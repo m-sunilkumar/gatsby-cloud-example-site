@@ -1,5 +1,12 @@
 import React from "react";
+import ThemePage from "gatsby-theme-event";
 
 export default function Home(props) {
-  return <h1>Hello, world</h1>;
+  return (
+    <>
+      {" "}
+      <ThemePage />
+      <h1>Hello, world</h1>
+    </>
+  );
 }
