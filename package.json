@@ -1,10 +1,17 @@
 {
   "name": "sample-workspace",
-  "main": "gatsby-config.js",
   "private": "true",
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "develop:site": "yarn workspace site develop",
+    "develop:gatsby-theme-event": "yarn workspace gatsby-theme-event develop",
+    "build:site": "yarn workspace site build",
+    "build:gatsby-theme-event": "yarn workspace gatsby-theme-event build",
+    "clean:site": "yarn workspace site clean",
+    "clean:gatsby-theme-event": "yarn workspace gatsby-theme-event clean"
+  },
   "dependencies": {
     "gatsby": "^2.29.2",
     "react": "^17.0.1",
