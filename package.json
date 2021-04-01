@@ -1,13 +1,14 @@
 {
   "name": "sample-workspace",
-  "description": "description",
-  "authors": "M Sunilkumar",
-  "version": "1.0.0",
-  "main": "pathToMain",
+  "main": "gatsby-config.js",
   "private": "true",
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "start": "yarn workspace site develop",
+    "develop": "gatsby develop"
+  },
   "dependencies": {
     "gatsby": "^2.29.2",
     "react": "^17.0.1",
