@@ -1,6 +1,6 @@
 {
   "name": "sample-workspace",
-  "private": "true",
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
@@ -11,10 +11,5 @@
     "build:gatsby-theme-event": "yarn workspace gatsby-theme-event build",
     "clean:site": "yarn workspace site clean",
     "clean:gatsby-theme-event": "yarn workspace gatsby-theme-event clean"
-  },
-  "dependencies": {
-    "gatsby": "^2.29.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
   }
 }
