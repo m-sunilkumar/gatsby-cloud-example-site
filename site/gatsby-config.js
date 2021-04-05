@@ -3,8 +3,8 @@ module.exports = {
     {
       resolve: "gatsby-source-contentful",
       options: {
-        spaceId: "ysylr7486iuq",
-        accessToken: "3yrNfvx6o2RSoJMS-fGoksRqP0p3Jk42kYA0koxFnLg",
+        spaceId: "",
+        accessToken: "",
       },
     },
     { resolve: "gatsby-theme-event" },
