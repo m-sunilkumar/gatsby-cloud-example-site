@@ -2,7 +2,8 @@
   "name": "sample-workspace",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "gatsby-theme-event",
+    "site"
   ],
   "scripts": {
     "develop:site": "yarn workspace site develop",
