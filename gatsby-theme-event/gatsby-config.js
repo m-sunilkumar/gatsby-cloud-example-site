@@ -15,9 +15,6 @@ module.exports = {
         path: path.join(__dirname, "src/pages"),
       },
     },
-    {
-      resolve: "gatsby-source-contentful",
-    },
 
     {
       resolve: `gatsby-source-filesystem`,
