@@ -12,6 +12,7 @@
     "develop": "gatsby develop"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "gatsby": "^3.2.0",
     "gatsby-source-contentful": "^5.2.0",
     "gatsby-source-filesystem": "^3.2.0",
