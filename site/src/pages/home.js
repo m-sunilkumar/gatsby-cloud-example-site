@@ -6,7 +6,7 @@ export default function Home(props) {
     <>
       {" "}
       {/* <ThemePage /> */}
-      <h1>Hello, world. welcome to gatsby cloud from home page</h1>
+      <h1>Hello gehc, world. welcome to gatsby cloud from home page............</h1>
     </>
   );
 }
