@@ -8,7 +8,7 @@
   "scripts": {
     "develop:site": "yarn workspace site develop",
     "develop:gatsby-theme-event": "yarn workspace gatsby-theme-event develop",
-    "build:site": "yarn workspace site build",
+    "build:site": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true yarn workspace site build --log-pages",
     "build:gatsby-theme-event": "yarn workspace gatsby-theme-event build",
     "clean:site": "yarn workspace site clean",
     "clean:gatsby-theme-event": "yarn workspace gatsby-theme-event clean"
