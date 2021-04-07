@@ -3,7 +3,7 @@ name: gatsby-sample-site
 on: 
    push:
     branches: [ master ]
-  workflow_dispatch: {}
+    workflow_dispatch: {}
 
 jobs:
   build:
